@@ -14,7 +14,7 @@ section{
 .banner ul {
     list-style-type: none;
     margin: 0;
-    padding: 1%;
+    padding: 2%;
     overflow: hidden;
     background-color: black;
     text-align: center;
@@ -61,10 +61,25 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: green}
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.telefonos-inicio{
+  width: 30%;
+  height: auto;
+  background-color: green;
+  position: absolute;
+  right: 0;
+  padding-left: 3%;
+  padding-bottom: 1%;
+}
+.telefonos-inicio span{
+  color: darkgreen;
+  display: block;
+  padding-top: 2%;
 }
 .contenido-inicio{
   text-align: center;
