@@ -1,0 +1,131 @@
+body{
+  margin: 0;
+}
+
+section{
+  height: 100vh;
+}
+
+.inicio{
+  background-color: black;
+  position: relative;
+}
+.contenido-inicio{
+  text-align: center;
+  padding: 10%;
+  position: absolute;
+  top: 20%;
+  width: 80%;
+}
+.contenido-inicio h1{
+  color: white;
+  font-size: 50px;
+}
+.productos{
+  background-color: white;
+  position: relative;
+}
+.titulo-productos{
+  position: absolute;
+  left: 5%;
+  width: 90%;
+  top: 0;
+  margin: 1vh;
+}
+.titulo-productos h1{
+  font-size: 7vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  text-transform: uppercase;
+}
+.titulo-productos h4{
+  font-size: 3vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  padding-left: 3%;
+}
+
+.contenido-productos{
+  margin: 1%;
+  border: 1px solid green;
+  height: 82vh;
+  width: 98%;
+  position: absolute;
+  top: 14vh;
+}
+.producto-1{
+  width: 49%;
+  border: 1px solid red;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+
+}
+.producto-2{
+  width: 49%;
+  border: 1px solid red;
+  height: 100%;
+  display: inline-block;
+  right: 0;
+  position: absolute;
+  right: 0;
+}
+.soluciones{
+  background-color: white;
+  position: relative;
+}
+.titulo-soluciones{
+  position: absolute;
+  left: 5%;
+  width: 90%;
+  top: 0;
+  margin: 1vh;
+}
+.titulo-soluciones h1{
+  font-size: 7vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  text-transform: uppercase;
+}
+.titulo-soluciones h4{
+  font-size: 3vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  padding-left: 3%;
+}
+
+.contenido-soluciones{
+  margin: 1%;
+  border: 1px solid green;
+  height: 82vh;
+  width: 98%;
+  position: absolute;
+  top: 14vh;
+}
+.solucion-1{
+  width: 69%;
+  border: 1px solid red;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+
+}
+.solucion-2{
+  width: 29%;
+  border: 1px solid red;
+  height: 100%;
+  display: inline-block;
+  right: 0;
+  position: absolute;
+  right: 0;
+}
+.video{
+  background-color: black;
+}
+
+.footer{
+  height: 35vh;
+  background-color: white;
+}
