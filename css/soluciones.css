@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  font-family: 'Titillium Web', sans-serif;
 }
 section{
   height: 100vh;
@@ -23,21 +24,21 @@ section{
   padding-left: 10%;
   padding-right: 10%;
   text-align: justify;
-  font-size: 4vh;
+  font-size: 3.5vh;
   padding-top: 5vh;
 }
 .contenido p{
   padding-left: 10%;
   padding-right: 10%;
   text-align: justify;
-  font-size: 2.8vh;
+  font-size: 2.4vh;
   margin-bottom: 5vh;
 }
 .contenido h5{
-  font-size: 2.4vh;
+  font-size: 2.2vh;
 }
 .contenido li{
-  font-size: 2.2vh;
+  font-size: 2vh;
 }
 .derecha{
   right: 0;

@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  font-family: 'Titillium Web', sans-serif;
 }
 .inicio{
   height: 100vh;
@@ -10,18 +11,22 @@ body{
   width: 100%;
   position: relative;
   display: block;
-  background-color: darkgreen;
+  background-color: #36783b;
   text-align: center;
   padding-top: 4vh;
 
 }
 .logo-banner{
-  width: 15%;
+  width: 12%;
   height: 12vh;
-  border: 1px solid red;
+  background-color: white;
   position: absolute;
   top: 0;
   left: 0;
+}
+.logo-banner img{
+  height: 12vh;
+
 }
 .nav-banner{
   width: 85%;
@@ -45,18 +50,23 @@ body{
   width: 100%;
   height: 88vh;
   position: relative;
-  background-color: red;
+}
+.contenido-inicio img{
+  width: 100%;
+  height: 88vh;
+  object-fit: cover;
 }
 .titulo-inicio{
   position: absolute;
-  top: 8vh;
+  top: 6vh;
   width: 100%;
   text-align: center;
 }
 .titulo-inicio h1{
   color: white;
-  font-size: 4vh;
+  font-size: 6vh;
   text-transform: uppercase;
+  text-shadow: 2px 2px #8a8c8a;
 }
 .contacto-inicio{
   position: absolute;
@@ -69,6 +79,8 @@ body{
   color: white;
   display: block;
   font-size: 2vh;
+  text-shadow: 2px 2px #8a8c8a;
+  font-weight: bold;
 }
 .fa-lg{
   padding-right: 3%;
@@ -79,11 +91,24 @@ body{
   height: 100vh;
   position: relative;
 }
+.imagen-nosotros{
+  width: 100%;
+  height: 88vh;
+  position: absolute;
+  top: 12vh;
+
+}
+.imagen-nosotros img{
+  width: 100%;
+  height: 88vh;
+  object-fit: cover;
+}
 .titulo-nosotros{
   width: 100%;
   position: absolute;
   height: 12vh;
-  background-color: blue;
+  top:0;
+  background-color: #36783b;
 }
 .titulo-nosotros h1{
   font-size: 4vh;
@@ -94,20 +119,22 @@ body{
 .contenido-nosotros{
   position: absolute;
   top: 20vh;
-  left: 5%;
-  right: 55%;
-  background-color: rgba(0, 0, 0, 0.5);
+  left: 8%;
+  right: 45%;
+  background-color: rgba(54, 120, 59, 0.7);
   border-radius: 32px;
   text-align: center;
 }
 .imagen-contenido{
-  width: 15%;
+  width: 10vh;
   height: 10vh;
-  border: 2px solid red;
   position: relative;
-  margin-top: 5vh;
+  margin-top: 2vh;
   margin-left: auto;
   margin-right: auto;
+}
+.imagen-contenido img{
+  width: 100%;
 }
 .texto-contenido{
   padding: 4% 8%;
@@ -116,7 +143,6 @@ body{
 }
 .texto-contenido p{
   color: white;
-  padding-bottom: 1vh;
   font-size: 2.5vh;
 }
 .mas-info{
@@ -124,7 +150,7 @@ body{
   bottom: 0;
   right: 0;
   padding: 0.5% 1%;
-  background: darkgreen;
+  background: #36783b;
   z-index: 10;
 }
 .mas-info span{
@@ -143,7 +169,7 @@ body{
   width: 100%;
   position: absolute;
   height: 12vh;
-  background-color: blue;
+  background-color: #36783b;
   text-align: right;
   z-index: 4;
 
@@ -160,8 +186,35 @@ body{
   position: absolute;
   bottom: 0;
   left: 0;
-  border: 2px solid red;
   z-index: 3;
+}
+.imagen-producto-izquierda{
+  width: 50%;
+  height: 88vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+.imagen-producto-izquierda img{
+  width: 100%;
+  height: 88vh;
+  object-fit: cover;
+  z-index: 2;
+}
+.imagen-producto-derecha{
+  width: 50%;
+  height: 88vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+.imagen-producto-derecha img{
+  width: 100%;
+  height: 88vh;
+  object-fit: cover;
+  z-index: 2;
 }
 .producto-derecha{
   width: 50%;
@@ -169,7 +222,6 @@ body{
   position: absolute;
   bottom: 0;
   right: 0;
-  border: 2px solid blue;
   z-index: 2;
 }
 .producto-derecha-completo{
@@ -178,8 +230,12 @@ body{
   position: absolute;
   bottom: 0;
   right: 0;
-  border: 2px solid blue;
   z-index: 2;
+}
+.producto-derecha-completo img{
+  width: 100%;
+  height: 88vh;
+  object-fit: cover;
 }
 .descripcion-izquierda{
   position: absolute;
@@ -187,7 +243,7 @@ body{
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(17, 25, 45, 0.45);
+  background: rgba(0, 0, 0, 0.7);
   color: #fff;
   visibility: hidden;
   opacity: 0;
@@ -202,7 +258,7 @@ body{
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(17, 25, 45, 0.45);
+  background: rgba(0, 0, 0, 0.7);
   color: #fff;
   visibility: hidden;
   opacity: 0;
@@ -211,12 +267,21 @@ body{
   align-items: center;
   justify-content: center;
 }
+.imagen-descripcion{
+  position: absolute;
+  top: 12vh;
+  height: 10vh;
+  width: 15%;
+}
+.imagen-descripcion img{
+  width: 75%;
+}
 .mas-info-descripcion-izquierda{
   position: absolute;
   bottom: 0;
   left: 0;
   padding: 0.5% 1%;
-  background: darkgreen;
+  background: #36783b;
 }
 .mas-info-descripcion-izquierda span{
   font-size: 3vh;
@@ -227,7 +292,7 @@ body{
   bottom: 0;
   right: 0;
   padding: 0.5% 1%;
-  background: darkgreen;
+  background: #36783b;
 }
 .mas-info-descripcion-derecha span{
   font-size: 3vh;
@@ -243,47 +308,48 @@ body{
 }
 .contenido-descripcion{
   position: absolute;
-  top: 20vh;
-  left: 15%;
-  width: 60%;
+  top: 30vh;
+  left: 25%;
+  width: 50%;
 }
 .contenido-descripcion h1{
-  font-size: 5vh;
-  border-left: 2px solid white;
+  font-size: 4vh;
+  border-left: 4px solid white;
   padding-left: 5%;
+  text-transform: uppercase;
 }
 .contenido-descripcion ul{
   list-style: none;
 }
 .contenido-descripcion li{
-  font-size: 3vh;
+  font-size: 2vh;
 }
 
-.soluciones{
+.contacto{
   height: 100vh;
   position: relative;
 
 }
-.titulo-soluciones{
+.titulo-contacto{
   width: 100%;
   position: absolute;
   height: 12vh;
-  background-color: blue;
+  background-color: #36783b;
   z-index: 4;
 }
-.titulo-soluciones h1{
+.titulo-contacto h1{
   font-size: 4vh;
   color: white;
   padding-left: 5%;
   text-transform: uppercase;
 }
-.texto-soluciones{
+.texto-contacto{
   width: 60%;
   margin-left: 20%;
   position: absolute;
   top: 15vh;
 }
-.texto-soluciones span{
+.texto-contacto span{
   display: block;
   color: white;
   font-size: 4vh;
@@ -292,9 +358,31 @@ body{
   padding-left: 5%;
 }
 .formulario{
-  background-color: darkgreen;
+  background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
   height: 88vh;
+}
+
+.contacto-izquierda{
+  width: 100%;
+  height: 88vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+.contacto-izquierda img{
+  width: 100%;
+  height: 88vh;
+  object-fit: cover;
+}
+.contacto-derecha{
+  width: 38%;
+  height: 88vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
 }
 .form{
   width: 60%;
@@ -312,7 +400,7 @@ body{
   border: 1px solid white;
 }
 #boton-enviar{
-  background-color: green;
+  background-color: #36783b;
   border: none;
   width: 30%;
   margin-left: auto;
@@ -357,6 +445,55 @@ body{
 	width: 100%;
 	height: 100%;
 }
+.soluciones{
+  height: 100vh;
+  position: relative;
+}
+.titulo-soluciones{
+  width: 100%;
+  position: absolute;
+  height: 12vh;
+  background-color: #36783b;
+  z-index: 4;
+}
+.titulo-soluciones h1{
+  font-size: 4vh;
+  color: white;
+  padding-left: 5%;
+  text-transform: uppercase;
+}
+.contenido-soluciones{
+  width: 26%;
+  height: 58vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 15vh 7%;
+  z-index: 3;
+}
+.contenido-soluciones h5{
+  font-size: 4vh;
+  text-transform: uppercase;
+  padding-left: 6%;
+  border-left: 4px solid white;
+}
+.contenido-soluciones li{
+  font-size: 2.5vh;
+  padding-left: 3%;
+}
+.imagen-soluciones{
+  position: absolute;
+  top: 12vh;
+  height: 88vh;
+}
+.imagen-soluciones img{
+  width: 100%;
+  height: 88vh;
+  object-fit: cover;
+  z-index: 2;
+}
 
 .proyectos{
   height: 100vh;
@@ -366,7 +503,7 @@ body{
   width: 100%;
   position: absolute;
   height: 12vh;
-  background-color: blue;
+  background-color: #36783b;
   text-align: right;
   z-index: 4;
 
@@ -383,7 +520,7 @@ body{
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(17, 25, 45, 0.45);
+  background: rgba(0, 0, 0, 0.7);
   color: #fff;
   opacity: 1;
 }

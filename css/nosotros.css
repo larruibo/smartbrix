@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  font-family: 'Titillium Web', sans-serif;
 }
 .inicio{
   height: 100vh;
@@ -9,7 +10,7 @@ body{
   width: 100%;
   height: 12vh;
   position: relative;
-  background-color: darkgreen;
+  background-color: #36783b;
 }
 .home-inicio{
   position: absolute;
@@ -17,13 +18,17 @@ body{
   left: 0;
   width: 12vh;
   height: 12vh;
-  border: 2px solid red;
+  background-color: #08280b;
+  text-align: center;
+}
+.home-inicio img{
+  height: 12vh;
+  object-fit: cover;
 }
 .texto-inicio{
   text-align: left;
   padding-right: 5%;
   padding-left: 5%;
-  border: 2px solid red;
   height: 12vh;
   position: absolute;
   width: 20%;
@@ -43,11 +48,16 @@ body{
   width: 100%;
   height: 88vh;
 }
+.imagen-contenido img{
+  width: 100%;
+  height: 88vh;
+  object-fit: cover;
+}
 .flotante-inicio{
   width: 45%;
   position: absolute;
   height: 30vh;
-  background-color: rgba(37, 99, 28, 0.8);
+  background-color: rgba(54, 120, 59, 0.7);
   right: 10%;
   border-radius: 32px;
 }
@@ -74,39 +84,45 @@ body{
   height: 150vh;
   width: 100%;
   position: relative;
-  background-color: rgb(37, 99, 28);
 }
 .imagen-segunda{
-  width: 49%;
+  width: 100%;
   position: absolute;
   height: 150vh;
   right: 0;
-  border: 2px solid red;
+  z-index: 2;
+}
+.imagen-segunda img{
+  width: 100%;
+  height: 150vh;
+  object-fit: cover;
 }
 .contenido-segunda{
-  margin: 10vh 4%;
+  padding: 6vh 4% 1vh 4%;
   width: 42%;
-  height: auto;
+  height: 143vh;
   position: absolute;
   left: 0;
   color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 3;
 }
 .contenido-segunda h4{
   margin-top: 0;
   margin-bottom: 5vh;
-  font-size: 2.8vh;
+  font-size: 2.3vh;
   text-align: justify;
 }
 .contenido-segunda h5{
   margin-top: 2vh;
   margin-bottom: 4vh;
-  font-size: 2.4vh;
+  font-size: 2.1vh;
   text-align: justify;
   padding-left: 2%;
 }
 .contenido-segunda p{
   margin-top: 3vh;
-  font-size: 2.2vh;
+  font-size: 2.1vh;
   text-align: justify;
   padding-left: 5%;
   padding-right: 5%;

@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  font-family: 'Titillium Web', sans-serif;
 }
 section{
   height: 100vh;
@@ -33,4 +34,33 @@ section{
 .texto h1{
   font-size: 4vh;
   color: white;
+}
+
+.imagen-seccion{
+  height: 88vh;
+  width: 100%;
+  position: relative;
+}
+.contenido-seccion{
+  width: 50%;
+  height: 88vh;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.7);
+}
+.texto-seccion{
+  padding: 20%;
+  color: white;
+}
+.texto-seccion h5{
+  font-size: 2.8vh;
+  font-weight: 600;
+  border-left: 4px solid white;
+  padding-left: 8%;
+}
+.texto-seccion span{
+  display: block;
+  font-size: 2.6vh;
+  padding-left: 8%;
 }
