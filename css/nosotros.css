@@ -8,28 +8,29 @@ body{
 }
 .titulo-inicio{
   width: 100%;
-  height: 12vh;
+  height: 8vh;
   position: relative;
-  background-color: #36783b;
+  background-color: rgba(54, 60, 64, 0.8);
+  z-index: 3;
 }
 .home-inicio{
   position: absolute;
   top: 0;
   left: 0;
-  width: 12vh;
-  height: 12vh;
+  width: 8vh;
+  height: 8vh;
   background-color: #08280b;
   text-align: center;
 }
 .home-inicio img{
-  height: 12vh;
+  height: 8vh;
   object-fit: cover;
 }
 .texto-inicio{
   text-align: left;
   padding-right: 5%;
   padding-left: 5%;
-  height: 12vh;
+  height: 8vh;
   position: absolute;
   width: 20%;
   top: 0;
@@ -40,31 +41,34 @@ body{
   text-transform: uppercase;
 }
 .texto-inicio h1{
+  margin-top: 2vh;
   font-size: 4vh;
-  color: white;
+  color: #9eb936;
 }
 .imagen-contenido{
-  position: relative;
+  position: absolute;
   width: 100%;
-  height: 88vh;
+  height: 100vh;
+  top:0;
+  z-index: 2;
 }
 .imagen-contenido img{
   width: 100%;
-  height: 88vh;
+  height: 100vh;
   object-fit: cover;
 }
 .flotante-inicio{
   width: 45%;
   position: absolute;
   height: 30vh;
-  background-color: rgba(54, 120, 59, 0.7);
+  background-color: rgba(54, 60, 64, 0.7);
   right: 10%;
   border-radius: 32px;
 }
 .flotante-inicio h1{
   padding-left: 7%;
   font-size: 3.5vh;
-  color: white;
+  color: #9eb936;
 }
 .flotante-inicio p{
   padding-left: 10%;
@@ -74,37 +78,37 @@ body{
   text-align: justify;
 }
 .flo1{
-  top: 10vh;
+  top: 15vh;
 }
 .flo2{
-  bottom: 10vh;
+  bottom: 15vh;
 }
 
 .seccion-segunda{
-  height: 150vh;
+  height: 100vh;
   width: 100%;
   position: relative;
 }
 .imagen-segunda{
   width: 100%;
   position: absolute;
-  height: 150vh;
+  height: 100vh;
   right: 0;
   z-index: 2;
 }
 .imagen-segunda img{
   width: 100%;
-  height: 150vh;
+  height: 100vh;
   object-fit: cover;
 }
 .contenido-segunda{
   padding: 6vh 4% 1vh 4%;
   width: 42%;
-  height: 143vh;
+  height: 93vh;
   position: absolute;
   left: 0;
   color: white;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color:rgba(54, 60, 64, 0.7);
   z-index: 3;
 }
 .contenido-segunda h4{
@@ -126,4 +130,7 @@ body{
   text-align: justify;
   padding-left: 5%;
   padding-right: 5%;
+}
+.contenido-segunda strong{
+  color: #9eb936;
 }
