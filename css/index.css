@@ -7,19 +7,19 @@ body{
   position: relative;
 }
 .banner{
-  height: 8vh;
+  height: 6vh;
   width: 100%;
   position: relative;
   display: block;
   background-color: #363c40;
   text-align: center;
-  padding-top: 4vh;
+  padding-top: 2vh;
   z-index: 2;
 
 }
 .logo-banner{
   width: 12%;
-  height: 12vh;
+  height: 8vh;
   background-color: #363c40;
   position: absolute;
   top: 0;
@@ -29,7 +29,7 @@ body{
   justify-content: center;
 }
 .logo-banner img{
-  height: 15vh;
+  height: 12vh;
 
 }
 .nav-banner{
@@ -44,12 +44,14 @@ body{
 }
 .nav-banner a{
   color: white;
-  font-size: 3vh;
+  font-size: 2.5vh;
   text-decoration: none;
   text-transform: uppercase;
   padding-left: 1%;
   padding-right: 1%;
   border-left: 2px solid white;
+  font-weight: 700;
+  letter-spacing: 1.3px;
 }
 .nav-banner a:hover{
   color: #9eb936;
@@ -58,7 +60,7 @@ body{
   width: 100%;
   height: 100vh;
   position: absolute;
-  background: rgba(54, 60, 64, 0.2);
+  background: rgba(54, 60, 64, 0.3);
   z-index: 2;
 }
 .contenido-inicio{
@@ -103,16 +105,16 @@ body{
 }
 .contacto-inicio{
   position: absolute;
-  bottom: 4vh;
-  right: 4vh;
-  width: 20%;
+  bottom: 10vh;
+  left: 4vh;
+  width: 25%;
   height: auto;
   z-index: 3;
 }
 .contacto-inicio span{
   color: white;
   display: block;
-  font-size: 3vh;
+  font-size: 2.5vh;
   font-weight: bold;
 
   text-shadow: 1px 1px #363c40;
@@ -156,10 +158,9 @@ body{
 .contenido-nosotros{
   position: absolute;
   top: 20vh;
-  left: 8%;
-  right: 45%;
+  left: 0;
+  right: 55%;
   background-color: rgba(54, 60, 64, 0.7);
-  border-radius: 32px;
   text-align: center;
 }
 .imagen-contenido{
@@ -320,6 +321,7 @@ body{
   left: 0;
   padding: 0.5% 2%;
   background: #363c40;
+  z-index: 11;
 }
 .mas-info-descripcion-izquierda span{
   font-size: 3vh;
@@ -331,6 +333,7 @@ body{
   right: 0;
   padding: 0.5% 2%;
   background: #363c40;
+  z-index: 11;
 }
 .mas-info-descripcion-derecha span{
   font-size: 3vh;
@@ -434,7 +437,7 @@ body{
   width: 60%;
   margin-left: 20%;
   position: absolute;
-  top: 15vh;
+  top: 5vh;
 }
 .texto-contacto span{
   display: block;
@@ -453,7 +456,7 @@ body{
 .formulario{
   background-color: rgba(54, 60, 64, 0.7);
   width: 100%;
-  height: 80vh;
+  height: 92vh;
 }
 
 .contacto-izquierda{
@@ -471,7 +474,7 @@ body{
 }
 .contacto-derecha{
   width: 38%;
-  height: 88vh;
+  height: 92vh;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -482,13 +485,13 @@ body{
   margin-left: 20%;
   margin-right: 20%;
   position: absolute;
-  top:35vh;
+  top:20vh;
 }
 .form input{
   background-color: transparent;
   display: block;
   margin-bottom: 2vh;
-  padding: 2%;
+  padding: 3%;
   width: 100%;
   border: 1px solid white;
 }
@@ -519,10 +522,43 @@ body{
 ::-ms-input-placeholder { /* Microsoft Edge */
    color:    white;
 }
+.otro-contacto{
+  position: absolute;
+  bottom: 10vh;
+  height: auto;
+  width: 100%;
+  color: white;
+}
+.otro-contacto span{
+  font-size: 2.5vh;
+  display: inline-block;
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-weight: 600;
+  margin-bottom: 1vh;
+}
+.fa2{
+
+}
 
 .seccion-video{
   height: 100vh;
   position: relative;
+}
+.titulo-video{
+  width: 100%;
+  position: absolute;
+  height: 8vh;
+  background-color: rgba(54, 60, 64, 0.8);
+  z-index: 4;
+}
+.titulo-video h1{
+  font-size: 4vh;
+  margin-top: 1vh;
+  color: #9eb936;
+  padding-left: 5%;
+  text-transform: uppercase;
 }
 
 .video{
@@ -717,11 +753,16 @@ body{
 .imagen-calidad{
   position: absolute;
   top: 0;
-  left: 0;
-  width: 40%;
+  left: 25%;
+  width: 20%;
   height: 14vh;
-  border: 2px solid red;
   display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imagen-calidad img{
+  width: 100%;
 }
 .texto-calidad{
   position: absolute;
@@ -733,4 +774,54 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.redes-footer{
+  width: 20%;
+  height: 14vh;
+  position: absolute;
+  top: 4vh;
+  left: 22%;
+}
+.redes-footer h5{
+  font-size: 3vh;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  font-weight: 400;
+}
+.fa-2x{
+  color: #9eb936;
+}
+.flotante-loco{
+  height: auto;
+  width: 10%;
+  position: fixed;
+  top: 8vh;
+  right: 0;
+  background-color: #9eb936;
+  z-index: 10;
+}
+.flotante-loco span{
+  color: white;
+  font-size: 3.2vh;
+  font-weight: 700;
+  margin-left: 20%;
+}
+.boton-bajar{
+  position: absolute;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 8vh;
+  bottom: 2px;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imagen-bajar{
+  height: 8vh;
+  width: 8vh;
+}
+.imagen-bajar img{
+  width: 113%;
 }
