@@ -3,11 +3,12 @@ body{
   font-family: 'Titillium Web', sans-serif;
   background-color: rgba(54, 60, 64, 0.8);
 }
-.galeria{
+.seccion-inicio{
   width: 100%;
-  height: 200vh;
-  font-size: 0px;
+  height: 100vh;
+  position: relative;
 }
+
 .titulo-inicio{
   width: 100%;
   height: 8vh;
@@ -45,48 +46,45 @@ body{
   font-size: 4vh;
   color: #9eb936;
 }
-.columna{
-  width: calc(100% / 3);
-  height: 50vh;
-  display: inline-block;
-  position: relative;
-}
-.imagen-columna{
+.imagen-productos{
   width: 100%;
-  height: 50vh;
-}
-.imagen-columna img{
-  width: 100%;
-  height: 50vh;
-  object-fit: cover;
-}
-.contenido-columna{
+  height: 100vh;
   position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
-  right: 0;
-  background-color: rgba(54, 60, 64, 0.8);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity .2s, visibility .2s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  z-index: 2;
 }
-.texto-contenido h1{
-  font-size: 3.5vh;
-  color: #9eb936;
-  text-align: center;
+.imagen-productos img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.contenido-productos{
+  width: 50%;
+  position: absolute;
+  height: 92vh;
+  bottom:0;
+  left: 0;
+  z-index: 3;
+  background-color: rgba(54, 60, 64, 0.8);
+  color: white;
+}
+.texto-contenido{
+  padding: 1% 5% 1% 5%;
 }
 .texto-contenido p{
   font-size: 2.2vh;
-  text-align: center;
-  font-weight: 600;
 }
-
-.columna:hover .contenido-columna{
-  visibility: visible;
-  opacity: 1;
+.texto-contenido ul{
+  list-style: none;
+}
+.texto-contenido li{
+  font-size: 2.1vh;
+}
+.texto-contenido li::before {
+  content: "•   ";
+  color: #9eb936; /* or whatever color you prefer */
+}
+.green{
+  color: #9eb936;
 }

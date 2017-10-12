@@ -25,17 +25,15 @@ section{
   z-index: 3;
 }
 .texto-inicio{
-  text-align: left;
   padding-right: 5%;
-  padding-left: 5%;
   height: 8vh;
   position: absolute;
-  width: 20%;
+  width: 80%;
   top: 0;
   right: 0;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   text-transform: uppercase;
 }
 .texto-inicio h1{
@@ -104,7 +102,7 @@ section{
   left: 0;
   width: 8vh;
   height: 8vh;
-  background-color: #08280b;
+  background-color: #9eb936;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,39 +116,21 @@ section{
   margin-left: 25%;
   margin-right: 25%;
   height: 8vh;
-  bottom: -0.6%;
+  bottom: 1%;
   z-index: 9;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-duration: 1s;
+
 }
 .imagen-bajar{
-  height: 8vh;
-  width: 8vh;
+  height: 10vh;
+  width: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .imagen-bajar img{
-  width: 100%;
-}
-.boton-home{
-  position: absolute;
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
-  height: 7vh;
-  bottom: 0;
-  z-index: 9;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.imagen-home{
-  height: 7vh;
-  width: 7vh;
-  background-color: rgba(54, 60, 64, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.imagen-home img{
-  height: 7vh;
+  width: 80%;
 }
