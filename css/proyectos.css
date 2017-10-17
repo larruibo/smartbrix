@@ -90,3 +90,21 @@ body{
   visibility: visible;
   opacity: 1;
 }
+
+@media screen and (max-width: 1050px)
+{
+  .texto-inicio h1{
+    font-size: 3vh;
+    text-align: right;
+  }
+  .columna{
+    width: calc(100%/2);
+  }
+}
+
+@media screen and (max-width: 600px)
+{
+  .columna{
+    width:100%;
+  }
+}

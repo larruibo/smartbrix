@@ -131,3 +131,24 @@ body{
 .contenido-segunda strong{
   color: #9eb936;
 }
+
+@media screen and (max-width: 1050px)
+{
+  .flotante-inicio{
+    width: 100%;
+    height: auto;
+  }
+  .contenido-segunda{
+    width: 92%;
+    height: 123vh;
+  }
+  .seccion-segunda{
+    height: 130vh;
+  }
+  .imagen-segunda{
+    height: 130vh;
+  }
+  .imagen-segunda img{
+    height: 130vh;
+  }
+}

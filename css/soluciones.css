@@ -134,3 +134,29 @@ section{
 .imagen-bajar img{
   width: 80%;
 }
+@media screen and (max-width: 1050px)
+{
+  section{
+    height: 120vh;
+  }
+  .imagen-seccion{
+    height: 120vh;
+  }
+  .imagen-seccion img{
+    height: 120vh;
+  }
+  .contenido{
+    width: 100%;
+    height: 120vh;
+  }
+  .listas{
+    bottom: 10vh;
+  }
+  h3{
+    font-size: 3vh !important;
+    text-align: center !important;
+  }
+  p{
+    font-size: 2.2vh !important;
+  }
+}

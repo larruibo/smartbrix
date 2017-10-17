@@ -88,3 +88,24 @@ body{
 .green{
   color: #9eb936;
 }
+
+@media screen and (max-width: 1050px)
+{
+  .seccion-inicio{
+    height: 130vh;
+  }
+  .imagen-productos{
+    height: 130vh;
+  }
+  .imagen-productos img{
+    height: 130vh;
+  }
+  .texto-inicio h1{
+    font-size: 3vh;
+    text-align: right;
+  }
+  .contenido-productos{
+    width: 100%;
+    height: 122vh;
+  }
+}
