@@ -90,15 +90,26 @@ body{
   visibility: visible;
   opacity: 1;
 }
+.flotante-loco{
+  display: none;
+  background-color: #9eb936;
+  color: #363c40;
+  text-align: center;
+  font-size: 2.5vh;
+  font-weight: 700;
+}
 
 @media screen and (max-width: 1050px)
 {
   .texto-inicio h1{
-    font-size: 3vh;
+    font-size: 2.9vh;
     text-align: right;
   }
   .columna{
     width: calc(100%/2);
+  }
+  .flotante-loco{
+    display: block;
   }
 }
 
