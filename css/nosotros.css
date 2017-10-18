@@ -1,0 +1,154 @@
+body{
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+.inicio{
+  height: 100vh;
+  position: relative;
+}
+.titulo-inicio{
+  width: 100%;
+  height: 8vh;
+  position: relative;
+  background-color: rgba(54, 60, 64, 0.8);
+  z-index: 3;
+}
+.home-inicio{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8vh;
+  height: 8vh;
+  background-color: #9eb936;
+  text-align: center;
+}
+.home-inicio img{
+  height: 8vh;
+  object-fit: cover;
+}
+.texto-inicio{
+  padding-right: 5%;
+  height: 8vh;
+  position: absolute;
+  width: 80%;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-transform: uppercase;
+}
+.texto-inicio h1{
+  margin-top: 2.5vh;
+  font-size: 4vh;
+  color: #9eb936;
+}
+.imagen-contenido{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top:0;
+  z-index: 2;
+}
+.imagen-contenido img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.flotante-inicio{
+  width: 40%;
+  position: absolute;
+  height: 28vh;
+  background-color: rgba(54, 60, 64, 0.7);
+  right: 0;
+}
+.flotante-inicio h1{
+  padding-left: 7%;
+  font-size: 3.5vh;
+  color: #9eb936;
+}
+.flotante-inicio p{
+  padding-left: 10%;
+  padding-right: 10%;
+  color: white;
+  font-size: 2.5vh;
+  text-align: justify;
+}
+.flo1{
+  top: 15vh;
+}
+.flo2{
+  bottom: 15vh;
+}
+
+.seccion-segunda{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.imagen-segunda{
+  width: 100%;
+  position: absolute;
+  height: 100vh;
+  right: 0;
+  z-index: 2;
+}
+.imagen-segunda img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.contenido-segunda{
+  padding: 6vh 4% 1vh 4%;
+  width: 42%;
+  height: 93vh;
+  position: absolute;
+  left: 0;
+  color: white;
+  background-color:rgba(54, 60, 64, 0.7);
+  z-index: 3;
+}
+.contenido-segunda h4{
+  margin-top: 0;
+  margin-bottom: 5vh;
+  font-size: 2.3vh;
+  text-align: justify;
+}
+.contenido-segunda h5{
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+  font-size: 2.1vh;
+  text-align: justify;
+  padding-left: 2%;
+}
+.contenido-segunda p{
+  margin-top: 3vh;
+  font-size: 2.1vh;
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.contenido-segunda strong{
+  color: #9eb936;
+}
+
+@media screen and (max-width: 1050px)
+{
+  .flotante-inicio{
+    width: 100%;
+    height: auto;
+  }
+  .contenido-segunda{
+    width: 92%;
+    height: 123vh;
+  }
+  .seccion-segunda{
+    height: 130vh;
+  }
+  .imagen-segunda{
+    height: 130vh;
+  }
+  .imagen-segunda img{
+    height: 130vh;
+  }
+}
