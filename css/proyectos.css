@@ -87,8 +87,8 @@ body{
 }
 
 .columna:hover .contenido-columna{
-  visibility: visible;
-  opacity: 1;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 .flotante-loco{
   display: none;

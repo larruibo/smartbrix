@@ -7,6 +7,17 @@ jQuery(document).ready(function(){
     event.preventDefault();
   });
 
+
+  function prueba(){
+    $('.contenido-columna').css('opacity', '1');
+    $('.contenido-columna').css('visibility', 'visible');
+    setTimeout(prueba1, 3000);
+  }
+  function prueba1(){
+    $('.contenido-columna').css('opacity', '0');
+    $('.contenido-columna').css('visibility', 'hidden');
+  }
+
   function buttonChange(){
     $('#boton-primera').css('opacity', '1');
     $('#boton-segunda').css('opacity', '1');
@@ -28,5 +39,6 @@ jQuery(document).ready(function(){
     setTimeout(buttonChange, 1000);
   }
   setTimeout(buttonChange, 50);
+  setTimeout(prueba, 50);
 
 });
